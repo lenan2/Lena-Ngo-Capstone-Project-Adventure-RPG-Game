@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>The Lost Key</title>
+</head>
+<body>
+  <div class="game-container">
+    <h1>The Lost Key</h1>
+    <p id="story">You have been told to go on a quest to find the lost key by the Queen of your lands. You have traveled a long way to get to the spot on the map where the Queen thinks the lost key resides.</p>
+    <button id="start-btn" onclick="startAdventure()">Start Adventure</button>
+    <div id="options" class="hidden">
+      <p id="step"></p>
+      <div id="choices"></div>
+    </div>
+    <button id="restart-btn" class="hidden" onclick="restartGame()">Restart Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
