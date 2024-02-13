@@ -72,7 +72,7 @@ function endGame() {
 }
 
 function showSuccess() {
-  storyElement.innerHTML = "Congratulations! You found the lost key and unlocked the secrets within!<br><span id='result'>You are victorious!</span>";
+  storyElement.innerHTML = "Congratulations! You found the lost key and unlocked the secrets within!<br><span id='result'>You found the key!</span>";
   restartButton.style.display = "block";
   stepElement.textContent = ''; // Clear step information
   choicesElement.innerHTML = ''; // Clear choices
