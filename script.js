@@ -86,7 +86,7 @@ function restartGame() {
   resultElement.style.display = "none";
 
   // Clear all content
-  storyElement.innerHTML = "You have been told to go on a quest to find the lost key by the Queen of your lands. You have traveled a long way to get to the spot on the map where the Queen thinks the lost key resides.";
+  storyElement.innerHTML = "You have been told to go on a quest to find the lost key by the Queen. You have traveled a long way to get to the spot on the map where the Queen thinks the lost key resides.";
   stepElement.textContent = '';
   choicesElement.innerHTML = '';
   resultElement.innerHTML = '';
